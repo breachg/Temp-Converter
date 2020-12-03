@@ -1,0 +1,79 @@
+body {
+  background-color: #71b8b4 !important;
+  margin: 30x !important;
+  font-family: "Amatic SC", cursive !important;
+  color: #ffffff !important;
+}
+
+.header {
+  font-size: 100px !important;
+  background-color: #06445c !important;
+  margin: auto !important;
+  margin-top: 30px !important;
+  border-radius: 30px !important;
+  text-align: center !important;
+  box-shadow: 10px 10px 5px grey !important;
+}
+
+.fT {
+  background-color: #06445c !important;
+  margin: auto !important;
+  margin-top: 15px !important;
+  margin-right: 75px !important;
+  margin-left: 75px !important;
+  border-radius: 30px !important;
+  font-size: 60px !important;
+  text-align: center !important;
+  box-shadow: 10px 10px 5px grey !important;
+}
+
+.cT {
+  background-color: #06445c !important;
+  margin: auto !important;
+  margin-top: 15px !important;
+  margin-right: 75px !important;
+  margin-left: 75px !important;
+  border-radius: 30px !important;
+  font-size: 60px !important;
+  text-align: center !important;
+  box-shadow: 10px 10px 5px grey !important;
+}
+
+.button {
+  background-color: #06445c !important;
+  margin: auto !important;
+  margin-top: 15px !important;
+  margin-left: 350px !important;
+  margin-right: 350px !important;
+  border-radius: 30px !important;
+  font-size: 60px !important;
+  text-align: center !important;
+  box-shadow: 10px 10px 5px grey !important;
+}
+button {
+  margin: auto !important;
+  background-color: #06445c !important;
+  border: 0px #06445c !important;
+  border-radius: 50% !important;
+  transition-duration: 1s !important;
+  outline: none !important;
+}
+.submitButton:hover {
+  -webkit-transform: rotate(360deg) !important;
+  transform: rotate(360deg) !important;
+}
+
+.input {
+  background-color: #71b8b4 !important;
+  border-radius: 25px !important;
+  margin-bottom: 10px !important;
+  text-align: center !important;
+  font-size: 25px !important;
+  color: #292a2b !important;
+  outline: none !important;
+}
+
+img {
+  height: 200px !important;
+  width: 200px !important;
+}

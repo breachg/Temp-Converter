@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="app_temp.css" />
+    <script src="./app_temp.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col header">Temperature Converter</div>
+      </div>
+      <div class="row">
+        <div class="col fT">
+          Fahrenheit
+          <br />
+          <span id="outputFarenheight">
+            <input
+              type="text"
+              class="input"
+              id="ftinput"
+              placeholder="Enter Your Temp"
+              oninput="convertToCelsius(this.value)"
+              onchange="convertToCelsius(this.value)"
+            />
+          </span>
+        </div>
+        <div class="col cT">
+          Celsius<br />
+          <span id="outputCelsius"
+            ><input
+              type="text"
+              class="input"
+              id="ctinput"
+              placeholder="Enter Your Temp"
+              oninput="convertToFarenheight(this.value)"
+              onchange="convertToFarenheight(this.value)"
+            />
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col button">
+          Reset <br />
+          <button type="submit" class="submitButton" onclick="refreshPage()">
+            <img
+              src="https://insideout.com/wp-content/uploads/2014/09/convert-01-300x300.png"
+            />
+          </button>
+          <br />
+          <br />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
